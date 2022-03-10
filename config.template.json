@@ -1,0 +1,16 @@
+{
+    "token": "TOKEN",
+    "channel_id": "CHANNEL ID",
+    "command_prefix": "!dungeonbot",
+    "timezone": "CST",
+    "announcement_message": "Doing {dungeon} at {time}!",
+    "start_message": "Dungeon {dungeon} starting now!",
+    "empty_message": "No teams created!",
+    "description_message": "Below are the assigned teams:",
+    "random_backfilling": true,
+    "flex_roles": true,
+    "scramble_entries": false,
+    "dps_count": 2,
+    "tank_count": 1,
+    "support_count": 1
+}

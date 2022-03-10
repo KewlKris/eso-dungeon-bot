@@ -1,0 +1,26 @@
+{
+  "name": "eso-dungeon-bot",
+  "version": "1.0.0",
+  "description": "A bot for an ESO Discord server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "build": "pkg index.js --out-path ./out --compress GZip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KewlKris/eso-dungeon-bot.git"
+  },
+  "author": "Christopher Chamberlain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KewlKris/eso-dungeon-bot/issues"
+  },
+  "homepage": "https://github.com/KewlKris/eso-dungeon-bot#readme",
+  "devDependencies": {
+    "pkg": "^5.5.2"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
